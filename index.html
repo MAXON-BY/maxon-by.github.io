@@ -16,8 +16,6 @@
     
 	<!-- Custom styles CSS -->
 	<link href="css/style.css" rel="stylesheet" media="screen">
-    
-    <script src="js/modernizr.custom.js"></script>
        
 </head>
 <body>
@@ -62,7 +60,7 @@
 							<feOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
 							<feOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
 							<feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
-							<feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+							<feOffset in="SourceGraphic" dx="3" dy="6" result="off2b"/>
 							<feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
 							<feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
 
@@ -94,7 +92,7 @@
 							</feMerge>
 
 
-							<feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
+							<feMerge x="0" width="100%"  result="merge2">
 								<feMergeNode in = "black" />
 								<feMergeNode in = "comp2" />
 								<feMergeNode in = "off2b" />
@@ -138,21 +136,13 @@
 			<div class="start">creating modern and responsive Web Application</div>
 		</div>
 
-        <a href="#services">
-		<div class="scroll-down">
-            <span>
-                <i class="fa fa-angle-down fa-2x"></i>
-            </span>
-		</div>
-        </a>
-
 	</section>
 
 	<!-- Home end -->
 
 	<!-- Navigation start -->
 
-	<header class="header">
+	<header class="header" style="display: none;">
 
 		<nav class="navbar navbar-custom" role="navigation">
 
@@ -189,7 +179,7 @@
 
     <!-- Services start -->
 
-	<section id="services" class="pfblock pfblock-gray">
+	<section id="services" class="pfblock pfblock-gray" style="display: none;">
 		<div class="container">
 			<div class="row">
 
@@ -306,10 +296,10 @@
                     
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
-                            <img src="images/item-1.jpg" alt="img01"/>
+                            <img src="images/port-1.png" alt="img01"/>
                             <figcaption>
-                                <h2>Crazy <span>Shark</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
+                                <h2>Calstate</h2>
+                                <p><a target="_blank" href="http://calstatemoving.com/">Link</a></p>
                             </figcaption>			
                         </figure>
                     </div>
@@ -320,10 +310,10 @@
             
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
-                            <img src="images/item-2.jpg" alt="img01"/>
+                            <img src="images/port-2.png" alt="img01"/>
                             <figcaption>
-                                <h2>Funny <span>Tortoise</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
+                                <h2>IMPA</h2>
+                                <p><a target="_blank" href="http://impalab.com/">Link</a></p>
                             </figcaption>			
                         </figure>
                     </div>
@@ -334,10 +324,10 @@
             
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
-                            <img src="images/item-3.jpg" alt="img01"/>
+                            <img src="images/port-3.png" alt="img01"/>
                             <figcaption>
-                                <h2>The <span>Hat</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
+                                <h2>Кони-Пони</h2>
+								<p><a target="_blank" href="http://koniponitur.by/">Link</a></p>
                             </figcaption>			
                         </figure>
                     </div>
@@ -348,43 +338,183 @@
             
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
-                            <img src="images/item-4.jpg" alt="img01"/>
+                            <img src="images/port-4.png" alt="img01"/>
                             <figcaption>
-                                <h2>Bang <span>Bang</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
+                                <h2>Dmitry Shumanev</h2>
+								<p><a target="_blank" href="http://shumanev.com/">Link</a></p>
                             </figcaption>			
                         </figure>
                     </div>
                     
                 </div>
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="images/item-5.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Crypton <span>Dude</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="images/item-6.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Don't <span>Poke</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+
+					<div class="grid wow zoomIn">
+						<figure class="effect-bubba">
+							<img src="images/port-5.png" alt="img01"/>
+							<figcaption>
+								<h2>LA MOVING CENTRE</h2>
+								<p><a target="_blank" href="http://www.lamovingcentre.com/">Link</a></p>
+							</figcaption>
+						</figure>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+
+					<div class="grid wow zoomIn">
+						<figure class="effect-bubba">
+							<img src="images/port-6.png" alt="img01"/>
+							<figcaption>
+								<h2>Impala van lines</h2>
+								<p><a target="_blank" href="http://impalamovingcompany.com/">Link</a></p>
+							</figcaption>
+						</figure>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+
+					<div class="grid wow zoomIn">
+						<figure class="effect-bubba">
+							<img src="images/port-7.png" alt="img01"/>
+							<figcaption>
+								<h2>Goldenkey</h2>
+								<p><a target="_blank" href="http://goldenkey-cleaningcompany.com/">Link</a></p>
+							</figcaption>
+						</figure>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+
+					<div class="grid wow zoomIn">
+						<figure class="effect-bubba">
+							<img src="images/port-8.png" alt="img01"/>
+							<figcaption>
+								<h2>Apex</h2>
+								<p><a target="_blank" href="http://apexsigncompany.com/">Link</a></p>
+							</figcaption>
+						</figure>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+
+					<div class="grid wow zoomIn">
+						<figure class="effect-bubba">
+							<img src="images/port-9.png" alt="img01"/>
+							<figcaption>
+								<h2>EuroStyle</h2>
+								<p><a target="_blank" href="http://microneedlingwinterpark.com/">Link</a></p>
+							</figcaption>
+						</figure>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+
+					<div class="grid wow zoomIn">
+						<figure class="effect-bubba">
+							<img src="images/port-10.png" alt="img01"/>
+							<figcaption>
+								<h2>Gifter</h2>
+								<p><a target="_blank" href="http://giftermsq.com/">Link</a></p>
+							</figcaption>
+						</figure>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+
+					<div class="grid wow zoomIn">
+						<figure class="effect-bubba">
+							<img src="images/port-11.png" alt="img01"/>
+							<figcaption>
+								<h2>Екатерина Кононова</h2>
+								<p><a target="_blank" href="http://maxon.hol.es/kononova/">Link</a></p>
+							</figcaption>
+						</figure>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+
+					<div class="grid wow zoomIn">
+						<figure class="effect-bubba">
+							<img src="images/port-12.png" alt="img01"/>
+							<figcaption>
+								<h2>NSVnail</h2>
+								<p><a target="_blank" href="http://nsvnail.by/">Link</a></p>
+							</figcaption>
+						</figure>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+
+					<div class="grid wow zoomIn">
+						<figure class="effect-bubba">
+							<img src="images/port-13.png" alt="img01"/>
+							<figcaption>
+								<h2>iloveugly</h2>
+								<p><a target="_blank" href="https://www.iloveugly.com/">Link</a></p>
+							</figcaption>
+						</figure>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+
+					<div class="grid wow zoomIn">
+						<figure class="effect-bubba">
+							<img src="images/port-14.png" alt="img01"/>
+							<figcaption>
+								<h2>magniko</h2>
+								<p><a target="_blank" href="http://magniko.by/">Link</a></p>
+							</figcaption>
+						</figure>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+
+					<div class="grid wow zoomIn">
+						<figure class="effect-bubba">
+							<img src="images/port-15.png" alt="img01"/>
+							<figcaption>
+								<h2>borovaya</h2>
+								<p><a target="_blank" href="http://parts.borovaya.by/">Link</a></p>
+							</figcaption>
+						</figure>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4">
+
+					<div class="grid wow zoomIn">
+						<figure class="effect-bubba">
+							<img src="images/port-16.png" alt="img01"/>
+							<figcaption>
+								<h2>Canon</h2>
+								<p><a target="_blank" href="http://service.k-mash.by/">Link</a></p>
+							</figcaption>
+						</figure>
+					</div>
+
+				</div>
                 
             </div>
 
@@ -418,32 +548,71 @@
                         </div>
 
                     </div><!-- .row -->
+
+					<div class="row row-flex">
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/boot.png" alt="Bootstrap">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/css.png" alt="CSS">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/git.png" alt="Git" style="max-width: 100%">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/gulp.png" alt="Gulp">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/html5.png" alt="HTML">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/JQuery.png" alt="Jquery" style="max-width: 100%">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/js.png" alt="JS">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/mysql.png" alt="MySql">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/node.png" alt="Node">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/npm.png" alt="npm">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/php.png" alt="PHP">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/sass.png" alt="SASS">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/sourcetree.png" alt="SourceTree">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/storm.png" alt="Storm">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/wp.png" alt="WordPress">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/Joomla.png" alt="joomla">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/magento.png" alt="magento">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/ps.png" alt="photoshop">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/sublime.png" alt="sublime">
+						</div>
+						<div class="col-sm-6 col-md-2 text-center wow fadeInUp">
+							<img src="images/notepad.png" alt="notepad">
+						</div>
+					</div>
 					
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="80" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">80</span>
-                        </span>
-						<h3 class="text-center">Programming</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="90" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">90</span>
-                        </span>
-						<h3 class="text-center">Design</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="85" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">85</span>
-                        </span>
-						<h3 class="text-center">Marketing</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="95" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">95</span>
-                        </span>
-						<h3 class="text-center">UI / UX</h3>
-					</div>
-					
+
 				</div><!--End row -->
 			
 			</div>
@@ -454,7 +623,7 @@
 
 	<!-- CallToAction start -->
 
-	<section class="calltoaction">
+	<section class="calltoaction" style="display: none;">
 		<div class="container">
 
 			<div class="row">
@@ -478,7 +647,7 @@
 
 	<!-- Testimonials start -->
 
-	<section id="testimonials" class="pfblock pfblock-gray">
+	<section id="testimonials" class="pfblock pfblock-gray" style="display: none;">
 
 		<div class="container">
             
@@ -529,7 +698,7 @@
 
 	<!-- Contact start -->
 
-	<section id="contact" class="pfblock">
+	<section id="contact" class="pfblock" style="display: none;">
 		<div class="container">
 			<div class="row">
 
@@ -596,11 +765,9 @@
 						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
 					</ul>
 
-					<p class="heart">
-                        Made with <span class="fa fa-heart fa-2x animated pulse"></span> in Nottingham
-                    </p>
+
                     <p class="copyright">
-                        © 2015 Max Nyrkov | Images: <a href="https://unsplash.com/">Unsplash</a> & <a href="http://zoomwalls.com/">Zoomwalls</a>
+                        © 2015 Max Nyrkov
 					</p>
 
 				</div>
@@ -621,17 +788,14 @@
 
 	<!-- Javascript files -->
 
-	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script src="js/jquery.backgroundvideo.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/jquery.parallax-1.1.3.js"></script>
 	<script src="js/imagesloaded.pkgd.js"></script>
 	<script src="js/jquery.sticky.js"></script>
-	<script src="js/smoothscroll.js"></script>
 	<script src="js/wow.min.js"></script>
     <script src="js/jquery.easypiechart.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.cbpQTRotator.js"></script>
 	<script src="js/custom.js"></script>
 
 </body>

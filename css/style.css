@@ -757,6 +757,7 @@ textarea.form-control {
 
 .grid h2{
     font-size: 20px;
+	opacity: 0;
 }
 
 .grid figure {
@@ -767,17 +768,34 @@ textarea.form-control {
 	min-width: 100%;
 	max-width: 100%;
 	height: auto;
-	background: #3085a3;
+	/*background: #3085a3;*/
 	text-align: center;
-	cursor: pointer;
+	/*cursor: pointer;*/
+	background-color: rgba(44, 62, 80, 0.5);
+	background-image: url(../images/pattern.png);
+	background-repeat: repeat;
+}
+
+.row-flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.row-flex img{
+	max-width: 72%;
 }
 
 .grid figure img {
 	position: relative;
 	display: block;
-	min-height: auto;
-	max-width: 100%;
+	max-height: 220px;
+	width: 100%;
 	opacity: 0.8;
+}
+#undefined-sticky-wrapper{
+	display: none;
 }
 
 .grid figure figcaption {
@@ -792,6 +810,8 @@ textarea.form-control {
 .grid figure figcaption::before,
 .grid figure figcaption::after {
 	pointer-events: none;
+	background-color: rgba(44, 62, 80, 0.3);
+	background-image: url(../images/pattern.png);
 }
 
 .grid figure figcaption,
@@ -825,6 +845,8 @@ textarea.form-control {
 .grid figure h2,
 .grid figure p {
 	margin: 0;
+	z-index: 1;
+	position: relative;
 }
 
 .grid figure p {
@@ -836,12 +858,12 @@ textarea.form-control {
 /***** Bubba *****/
 /*---------------*/
 
-figure.effect-bubba {
-	background: #9e5406;
-}
+/*figure.effect-bubba {*/
+	/*background: #9e5406;*/
+/*}*/
 
 figure.effect-bubba img {
-	opacity: 0.7;
+	opacity: 1;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
@@ -863,19 +885,19 @@ figure.effect-bubba figcaption::after {
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-bubba figcaption::before {
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
-	-webkit-transform: scale(0,1);
-	transform: scale(0,1);
-}
+/*figure.effect-bubba figcaption::before {*/
+	/*border-top: 1px solid #fff;*/
+	/*border-bottom: 1px solid #fff;*/
+	/*-webkit-transform: scale(0,1);*/
+	/*transform: scale(0,1);*/
+/*}*/
 
-figure.effect-bubba figcaption::after {
-	border-right: 1px solid #fff;
-	border-left: 1px solid #fff;
-	-webkit-transform: scale(1,0);
-	transform: scale(1,0);
-}
+/*figure.effect-bubba figcaption::after {*/
+	/*border-right: 1px solid #fff;*/
+	/*border-left: 1px solid #fff;*/
+	/*-webkit-transform: scale(1,0);*/
+	/*transform: scale(1,0);*/
+/*}*/
 
 figure.effect-bubba h2 {
 	padding-top: 10%;
@@ -998,6 +1020,13 @@ svg{
 	overflow: hidden;
 	margin: 0 auto;
 	background: transparent;
+}
+
+section{
+	min-height: 100vh;
+}
+#portfolio{
+	background-color: #eee;
 }
 
 /* Example for media query */
