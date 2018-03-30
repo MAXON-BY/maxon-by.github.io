@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="128c1746-71ec-4247-afdc-3ec8bb04b2ca" name="Default" comment="commit again">
-      <change type="DELETED" beforePath="C:\Users\user_PC\Desktop\maxon.github.io\js\jquery-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user_PC\Desktop\maxon.github.io\js\jquery.cbpQTRotator.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user_PC\Desktop\maxon.github.io\js\modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user_PC\Desktop\maxon.github.io\js\smoothscroll.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user_PC\Desktop\maxon.github.io\js\waypoints.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user_PC\Desktop\maxon.github.io\libs\HTML5-Background-Video-master.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+    <list default="true" id="128c1746-71ec-4247-afdc-3ec8bb04b2ca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/1-aalTd6nKuVR31c3-bEED8g.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/JQuery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Joomla.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/boot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/css.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/git.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/html5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/js.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/magento.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mysql.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/node.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/node_npm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/notepad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/npm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/php.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/port-9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sourcetree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/storm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sublime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/wp.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="maxon.github.io.iws" />
@@ -292,7 +321,13 @@
       <option name="project" value="LOCAL" />
       <updated>1521759756312</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавлены иконки, добавлено портфолио, спрятана секция контакты">
+      <created>1522395578558</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522395578558</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -310,6 +345,7 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20674486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32831326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -318,7 +354,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38855422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -343,7 +378,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new commit" />
     <MESSAGE value="commit again" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit again" />
+    <MESSAGE value="Добавлены иконки, добавлено портфолио, спрятана секция контакты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены иконки, добавлено портфолио, спрятана секция контакты" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -523,6 +559,16 @@
           <caret line="786" column="19" selection-start-line="786" selection-start-column="19" selection-end-line="786" selection-end-column="19" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/1-aalTd6nKuVR31c3-bEED8g.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/boot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
