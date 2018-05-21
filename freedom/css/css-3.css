@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#add{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: inherit;
+}
+.add-list{
+    border: 1px solid #d1d1d1;
+    padding: 15px 35px;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 0px 3px 18px #9b9a93;
+}
+.add-list-input{
+    padding: 10px;
+    background-color: #ced155;
+}
+.add-list-author p{
+    color: forestgreen;
+    text-align: center;
+    font-style: italic;
+}
+.add-list-out{
+    border-top: 1px solid darkolivegreen;
+    border-bottom: 1px solid darkolivegreen;
+    margin-top: 20px;
+}
+input{
+    width: 84%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+button{
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+ul{
+    list-style-type: decimal;
+}
+li:last-child{
+    display: none;
+}

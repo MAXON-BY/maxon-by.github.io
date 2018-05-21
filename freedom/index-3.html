@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Дз урока №3</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/css-3.css">
+</head>
+<body>
+
+<div id="add">
+    <div class="container">
+
+        <div class="add-list">
+            <div class="add-list-title">
+                <h2>Введите текст для преобразования её в ссылку</h2>
+            </div>
+
+            <!-- Поле ввода текста-->
+            <div class="add-list-input">
+                <form>
+                    <input type="text" placeholder="Текст вводить сюдой, потом нажимаем кнопку 'В ссылку!!!'" required="required">
+                    <button type="submit">В ссылку!</button>
+                </form>
+            </div>
+
+            <!-- Блок вывода ссылок-->
+            <div class="add-list-out">
+
+                <!-- Если нет ссылок-->
+                <div class="add-list-out-none">
+                    <p>У вас нету ссылок :(</p>
+                </div>
+
+                <!-- Ссылки-->
+                <div class="add-list-out-have" style="visibility: hidden">
+                    <p>Ссылочки:</p>
+                    <ul></ul>
+                </div>
+
+            </div>
+
+            <!-- Copy  меня...-->
+            <div class="add-list-author">
+                <p><span>Автор: <a href="https://maxon-by.github.io/">Максим Нырков</a></span></p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="js/common-3.js"></script>
+</body>
+</html>

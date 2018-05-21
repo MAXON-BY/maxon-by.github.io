@@ -1,0 +1,52 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#facebook{
+    height: inherit;
+}
+
+.facebook-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    flex-direction: column;
+}
+
+.user-block-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 203px;
+    height: 248px;
+    margin: 0 auto;
+}
+.user-block{
+    text-align: center;
+    padding: 0 20px;
+    box-shadow: 0 0 1px #eee;
+    box-sizing: border-box;
+}
+.user-block a{
+    margin: 0 20px;
+    text-decoration: none;
+    transition: 0.3s    ;
+}
+.user-block a:hover{
+    color: limegreen;
+    transition: 0.3s;
+}
+
+h2{
+    font-size: 19px;
+    font-weight: bold;
+    color: #935e47;
+}
+.copy a{
+    color: green;
+}
