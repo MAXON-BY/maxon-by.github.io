@@ -93,6 +93,13 @@ body{
     border: 1px solid #d3cccc;
     overflow: hidden;
 }
+input{
+    padding: 8px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 1px solid #d3cccc;
+    overflow: hidden;
+}
 select{
     padding: 7px;
     border-radius: 3px;
@@ -101,6 +108,7 @@ select{
     overflow: hidden;
     outline: none;
     margin-left: 10px;
+    cursor: pointer;
 }
 textarea{
     height: 90px;
@@ -179,4 +187,28 @@ textarea{
     display: -ms-flexbox;
     display: flex;
     align-items: center;
+}
+button{
+    padding: 9px;
+    border: 1px solid #d3cccc;
+    position: relative;
+    left: -7px;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: #fff;
+    border-color: cornflowerblue;
+    transition: 0.3s;
+}
+button:hover{
+    transition: 0.3s;
+    background-color: #3b7ced;
+}
+.search{
+    width: 230px;
+}
+.sort-form{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
 }
