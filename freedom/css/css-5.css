@@ -93,6 +93,15 @@ body{
     border: 1px solid #d3cccc;
     overflow: hidden;
 }
+select{
+    padding: 7px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 1px solid #d3cccc;
+    overflow: hidden;
+    outline: none;
+    margin-left: 10px;
+}
 textarea{
     height: 90px;
 }
@@ -164,4 +173,10 @@ textarea{
 .owner span:first-child{
     font-weight: 600;
     padding-right: 5px;
+}
+.select-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
 }

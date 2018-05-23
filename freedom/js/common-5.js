@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     /* toggle form block */
     var formToggle = document.querySelector('.open-close');
     var formBlock = document.querySelector('.form-block');
+    var createListdiv = document.querySelector('.create-list');
 
     formToggle.addEventListener('click', toggleForm);
 
@@ -62,27 +63,26 @@ document.addEventListener('DOMContentLoaded', function () {
         text.textContent = notesObj;
 
         /* собираем и оборачиваем элементы в один блок .create-list */
-        var createList = document.querySelector('.create-list');
-            createList.appendChild(createListBlock);
-            createListBlock.appendChild(blockDelete);
-            blockDelete.appendChild(btnDelete);
-            createListBlock.appendChild(blockDescr);
-            blockDescr.appendChild(descrWrap);
-            descrWrap.appendChild(hName);
-            descrWrap.appendChild(dateTime);
-            blockDescr.appendChild(owner);
-            owner.appendChild(ownerSpan);
-            owner.appendChild(ownerInSpan);
-            blockDescr.appendChild(text);
+        createListdiv.appendChild(createListBlock);
+        createListBlock.appendChild(blockDelete);
+        blockDelete.appendChild(btnDelete);
+        createListBlock.appendChild(blockDescr);
+        blockDescr.appendChild(descrWrap);
+        descrWrap.appendChild(hName);
+        descrWrap.appendChild(dateTime);
+        blockDescr.appendChild(owner);
+        owner.appendChild(ownerSpan);
+        owner.appendChild(ownerInSpan);
+        blockDescr.appendChild(text);
     }
 
     /* забираем данные и сохраняем в объект */
-    var petName  = document.querySelector('.petname'),
-        petOwner = document.querySelector('.petowner'),
-        petDate  = document.querySelector('.date'),
-        petTime  = document.querySelector('.time'),
-        petNotes = document.querySelector('.notes'),
-        petInput = document.querySelectorAll('input'),
+    var petName     = document.querySelector('.petname'),
+        petOwner    = document.querySelector('.petowner'),
+        petDate     = document.querySelector('.date'),
+        petTime     = document.querySelector('.time'),
+        petNotes    = document.querySelector('.notes'),
+        petInput    = document.querySelectorAll('input'),
         petTextarea = document.querySelector('textarea');
 
 
@@ -90,10 +90,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var form = document.querySelector('form');
     form.addEventListener('submit', addObject);
 
+    var arr=[];
     function addObject(e){
         e.preventDefault();
 
-        var arr=[];
         var newObject = {
             name: petName.value,
             owner: petOwner.value,
@@ -111,6 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
         petTextarea.value = '';
 
         function doMarkup() {
+            createListdiv.innerHTML = '';
 
             for(var i = 0; i < arr.length; i++){
                 createList(arr[i].name,arr[i].owner,arr[i].date,arr[i].time,arr[i].notes);
