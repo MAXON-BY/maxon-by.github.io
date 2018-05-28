@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
         };
 
         arr.push(newObject);
-
+        /* пустые поля после ввода */
         for (var i = 0; i < petInput.length; i++) {
             petInput[i].value = '';
         }
