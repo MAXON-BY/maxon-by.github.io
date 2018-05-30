@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var req = new XMLHttpRequest();
 
-    req.open('GET', 'http://api.openweathermap.org/data/2.5/forecast?q=Minsk,by&APPID=d247634481dbb5763c73c6a7aa7260d7', true);
+    req.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?q=Minsk,by&APPID=d247634481dbb5763c73c6a7aa7260d7', true);
     req.responseType = "json";
 
     req.onerror = function () {
