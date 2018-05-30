@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.copy,
+.topline{
+    background-color: #a2b542;
+}
+.topline p{
+    color: #fff;
+    text-align: right;
+}
+button:active,
+button:link,
+button {
+    padding: 4px 11px;
+    border: 1px solid darkslateblue;
+    position: static;
+    cursor: pointer;
+    background-color: darkslateblue;
+    color: #fff;
+    transition: 0.3s;
+    line-height: 1;
+    font-size: 26px;
+    margin-left: 8px;
+    outline: none;
+}
+.main-content{
+    height: 100vh;
+    padding: 0;
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+body{
+    background-image: url("http://www.zastavki.com/pictures/originals/2014/Nature___Seasons___Spring_Foggy_spring_weather_in_the_forest_067839_.jpg");
+    background-size: cover;
+}
+.copy{
+    position: static;
+    padding: 0;
+    font-size: 15px;
+    width: auto;
+    text-align: right;
+}
+.copy a {
+    color: #3c4854;
+    margin-left: 10px;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+textarea{
+    margin: 0px;
+    width: 100%;
+    min-height: 150px;
+    border: none;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    resize: none;
+    padding: 6px;
+    display: block;
+    background-color: #ffffff;
+}
+textarea[disabled]{
+    background-color: lightgoldenrodyellow;
+}
+.message{
+    width: 250px;
+    background-color: khaki;
+    cursor: move;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.delete{
+    overflow: hidden;
+}
+.delete-btn{
+    cursor: pointer;
+    float: right;
+    margin: 5px 7px;
+    width: 15px;
+}
+.message-btn{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 5px 5px;
+}
+.btn:active,
+.btn {
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 13px;
+    border-radius: 0px;
+    padding: 4px 11px;
+    font-weight: normal;
+    border: none;
+}
+.btn-edit{
+    background-color: burlywood;
+}
+.btn-save{
+    background-color: mediumaquamarine;
+}
+body{
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+.block-3 span{
+    font-family: 'Roboto', sans-serif;
+}
+.weather-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather{
+    width: 350px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 71px #084606;
+}
+.weather-today{
+    color: #fff;
+    padding: 15px;
+    background-color: #15c215;
+}
+.weather-week{
+    background-color: #fff;
+    padding: 5px 15px;
+}
+.topline{
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.current-temp{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 10px;
+}
+.block-3{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.next-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #7e7373;
+    border-bottom: 1px solid #b0a9a9;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+.block-2{
+    padding: 40px;
+}
+.current-icon{
+    width: 100px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.next-time:last-child{
+    border-bottom: none;
+}
+.fa-fighter-jet:before,
+.fa-arrow-alt-circle-up:before{
+    left: -7px;
+    position: relative;
+}
