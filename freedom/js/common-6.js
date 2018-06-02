@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     /* toggle form block */
-    var formToggle = document.querySelector('.open-close');
-    var formBlock = document.querySelector('.form-block');
+    var formToggle    = document.querySelector('.open-close');
+    var formBlock     = document.querySelector('.form-block');
     var createListdiv = document.querySelector('.create-list');
 
     formToggle.addEventListener('click', toggleForm);
@@ -19,6 +19,10 @@ document.addEventListener('DOMContentLoaded', function () {
         petNotes    = document.querySelector('.notes'),
         petInput    = document.querySelectorAll('input'),
         petTextarea = document.querySelector('textarea');
+
+    /* search */
+    var searchInput = document.querySelector('.search');
+    var searchBtn   = document.querySelector('.search-btn');
 
 
     /* кнопка отправки данных из формы в объект */
@@ -63,6 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var btnDelete = document.createElement('span');
         btnDelete.className = 'btn-delete fa fa-window-close';
         btnDelete.onclick = function () {
+            alert('click delete');
             currentArr.splice(index,1);
             doMarkup();
         };
@@ -123,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function () {
             createList(item.name,item.owner,item.date,item.time,item.notes,index,currentArr);
         });
     }
-    doMarkup();
+
 
     /* сортировка */
     var select = document.querySelector('select');
@@ -135,6 +140,49 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         arr.sort(compare);
         doMarkup();
+    };
+
+
+    /* filter */
+    function searchInfo(arr,petName) {
+        var searchInput = document.querySelector('.search');
+        alert(searchInput.value);
+
+        return arr.filter(function (item){
+            if (petName === "") {
+                return true;
+            }
+            return(item.name.toLowerCase().indexOf(petName.trim().toLowerCase()) !== -1);
+        });
     }
+
+    searchInput.oninput = function(e) {
+        e.preventDefault();
+
+        createListdiv.innerHTML = '';
+
+        searchInfo(arr, searchInput.value).map(function(item, index, currentArr){
+            createList(item.name,item.owner,item.date,item.time,item.notes,index,currentArr);
+        });
+    };
+
+    doMarkup();
+
+
+    //function searchInfo(e){
+    //    e.preventDefault();
+    //
+    //    var searchInput = document.querySelector('.search'),
+    //        searchInputVal = searchInput.value;
+    //        console.log(searchInputVal);
+    //
+    //    //var customers = arr.filter(function(person) {
+    //    //    return person.owner.toLowerCase() == searchInputVal;
+    //    //});
+    //    //console.log(customers);
+    //
+    //    searchInput.value = '';
+    //    doMarkup();
+    //}
 
 });
