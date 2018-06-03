@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     var messageWindow = document.querySelector('.message-window'),
-        messageAdd    = document.querySelector('.message-add'),
-        textArea = document.querySelector('textarea');
+        messageAdd    = document.querySelector('.message-add');
 
     messageAdd.addEventListener('click', addObject);
 
@@ -10,13 +9,9 @@ document.addEventListener('DOMContentLoaded', function () {
     function addObject(e){
         e.preventDefault();
 
-        var newObject = {
-            text: textArea.value
-        };
+        var note = new createMessage();
 
-        arr.push(newObject);
-
-        doMarkup();
+        arr.push(note);
         console.log(arr);
     }
 
@@ -24,14 +19,14 @@ document.addEventListener('DOMContentLoaded', function () {
         messageWindow.innerHTML = '';
 
         arr.map(function(item,index,currentArr){
-            createMessage(item.text,index,currentArr);
+            createMessage(item.text,item.offsetX,item.offsetY,index,currentArr);
         });
     }
     doMarkup();
 
 
     /* функция создания блока вывода create-list-block */
-    function createMessage(textObj,index,currentArr){
+    function createMessage(textObj,offsetX,offsetY,index,currentArr){
 
         /* общий блок message */
         var messageBlock = document.createElement('div');
@@ -47,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     btnDelete.setAttribute('src','https://edstoneinc.com/wp-content/themes/edstoneinc/img/trash-icon.png');
                     btnDelete.setAttribute('title','Delete message');
                     btnDelete.onclick = function () {
+                        console.log(currentArr);
                         currentArr.splice(index,1);
                         doMarkup();
                     };
@@ -86,54 +82,45 @@ document.addEventListener('DOMContentLoaded', function () {
         messageWindow.appendChild(messageBlock);
         messageBlock.appendChild(blockDelete);
         blockDelete.appendChild(btnDelete);
-
         messageBlock.appendChild(textareaInput);
-
         messageBlock.appendChild(messageBtn);
         messageBtn.appendChild(saveBtn);
         messageBtn.appendChild(editBtn);
 
 
-
+        /* позиционирование элемента в пространстве */
         var mouseX = 0;
         var mouseY = 0;
-        var divY = 0;
-        var divX = 0;
-
-        var divForScroll = document.querySelector('.message');
+        var divY = offsetY;
+        var divX = offsetX;
 
         var x = localStorage.getItem('x');
         var y = localStorage.getItem('y');
 
-        divForScroll.style.left = x;
-        divForScroll.style.top = y;
-
         function dragElement(e) {
             mouseX = e.pageX;
             mouseY = e.pageY;
-            divForScroll.style.left = (mouseX - deltaX) + "px";
-            divForScroll.style.top = (mouseY - deltaY) + "px";
+            messageBlock.style.left = (mouseX - deltaX) + "px";
+            messageBlock.style.top = (mouseY - deltaY) + "px";
             localStorage.setItem('x', (mouseX - deltaX));
             localStorage.setItem('y', (mouseY - deltaY));
         }
 
 
-        divForScroll.onmousedown = function (e) {
+        messageBlock.onmousedown = function (e) {
             mouseX = e.pageX;
             mouseY = e.pageY;
-            divY = divForScroll.offsetTop;
-            divX = divForScroll.offsetLeft;
+            divY = messageBlock.offsetTop;
+            divX = messageBlock.offsetLeft;
             deltaX = mouseX - divX;
             deltaY = mouseY - divY;
             window.addEventListener("mousemove", dragElement);
         };
 
-        divForScroll.onmouseup = function (e) {
+        messageBlock.onmouseup = function (e) {
             window.removeEventListener("mousemove", dragElement);
         };
+
     }
-
-
-
 
 });
