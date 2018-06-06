@@ -52,6 +52,14 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log(arr);
     }
 
+    function doMarkup() {
+        createListdiv.innerHTML = '';
+
+        arr.map(function(item, index, currentArr){
+            createList(item.name,item.owner,item.date,item.time,item.notes,index,currentArr);
+        });
+    }
+
     /* функция создания блока вывода create-list-block */
     function createList(nameObj,ownerObj,dateObj,timeObj,notesObj,index,currentArr){
 
@@ -119,14 +127,6 @@ document.addEventListener('DOMContentLoaded', function () {
         owner.appendChild(ownerSpan);
         owner.appendChild(ownerInSpan);
         blockDescr.appendChild(text);
-    }
-
-    function doMarkup() {
-        createListdiv.innerHTML = '';
-
-        arr.map(function(item, index, currentArr){
-            createList(item.name,item.owner,item.date,item.time,item.notes,index,currentArr);
-        });
     }
 
 

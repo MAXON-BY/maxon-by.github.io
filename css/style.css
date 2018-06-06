@@ -387,9 +387,27 @@ textarea.form-control {
 			/*background-size: cover;*/
 	/*padding: 0;*/
 }
+#contact{
+	position: relative;
+}
+#contact:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-image: url("../images/cover.jpg");
+	background-size: cover;
+}
+#home{
+	background-image: url("../images/stol-obstanovka-mesto.jpg");
+	background-size: cover;
+}
 
 .home-overlay {
-    background-color: rgba(44, 62, 80, 0.5);
+    background-color: rgba(44, 62, 80, 0.4);
     background-image: url("../images/pattern.png");
     background-repeat: repeat;
     height: 100%;
