@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Max Nyrkov (Frontend Developer) - My Personal Portfolio</title>
+	<title>Max Nyrkov (ReactJS / Frontend Developer) - My Personal Portfolio</title>
 
 	<!-- CSS -->
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -20,21 +20,18 @@
 </head>
 <body>
 
-	<!--&lt;!&ndash; Preloader &ndash;&gt;-->
-
-	<!--<div id="preloader">-->
-		<!--<div id="status"></div>-->
-	<!--</div>-->
+<!--Preloader-->
+<div id="preloader">
+	<div id="status"></div>
+</div>
 
 	<!-- Home start -->
-
 	<section id="home" class="pfblock-image screen-height">
         <div class="home-overlay"></div>
 		<div class="intro">
 			<div class="start">Hello, my name is Max Nyrkov and I am</div>
 			<div class="front">
 				<h1 style="display: none;">FrontEnd Developer</h1>
-
 				<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 					 width="1000px" height="100px" viewBox="0 0 600 100">
 					<style type="text/css">
@@ -135,165 +132,38 @@
 			</div>
 			<div class="start">creating modern and responsive Web Application</div>
 		</div>
-
 	</section>
-
 	<!-- Home end -->
-
-	<!-- Navigation start -->
-
-	<header class="header" style="display: none;">
-
-		<nav class="navbar navbar-custom" role="navigation">
-
-			<div class="container">
-
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html">Max Nyrkov</a>
-				</div>
-
-				<div class="collapse navbar-collapse" id="custom-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Works</a></li>
-                        <li><a href="#skills">Skills</a></li>
-						<li><a href="#testimonials">Testimonials</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
-
-			</div><!-- .container -->
-
-		</nav>
-
-	</header>
-
-	<!-- Navigation end -->
-
-    <!-- Services start -->
-
-	<section id="services" class="pfblock pfblock-gray" style="display: none;">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">This is what I do</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-
-			<div class="row">
-
-				<div class="col-sm-3">
-
-					<div class="iconbox wow slideInLeft">
-						<div class="iconbox-icon">
-							<span class="icon-magic-wand"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Web Design</h3>
-							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-sm-3">
-
-					<div class="iconbox wow slideInLeft">
-						<div class="iconbox-icon">
-							<span class="icon-puzzle"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Web Programming</h3>
-							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-sm-3">
-
-					<div class="iconbox wow slideInRight">
-						<div class="iconbox-icon">
-							<span class="icon-badge"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Branding</h3>
-							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-sm-3">
-
-					<div class="iconbox wow slideInRight">
-						<div class="iconbox-icon">
-							<span class="icon-question"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Consultation</h3>
-							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
-
-	<!-- Services end -->
     
 	<!-- Portfolio start -->
-
 	<section id="portfolio" class="pfblock">
 		<div class="container">
 			<div class="row">
-
 				<div class="col-sm-6 col-sm-offset-3">
-
 					<div class="pfblock-header wow fadeInUp">
 						<h2 class="pfblock-title">My works</h2>
 						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-
-						</div>
+						<div class="pfblock-subtitle"></div>
 					</div>
-
 				</div>
-
 			</div><!-- .row -->
-            
-            
-            <div class="row">
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    
+
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="wrap-portfolio">
+						<ul>
+							<li><button type="button" class="mixitup-control-active" data-filter="all">All</button></li>
+							<li><button type="button" data-filter=".cms">CMS</button></li>
+							<li><button type="button" data-filter=".lp">LP</button></li>
+							<li><button type="button" data-filter=".spa">SPA</button></li>
+							<li><button type="button" data-filter=".games">GAMES</button></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+            <div class="row portfolio">
+                <div class="mix cms col-xs-12 col-sm-4 col-md-4">
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                             <img src="images/port-1.png" alt="img01"/>
@@ -303,11 +173,8 @@
                             </figcaption>			
                         </figure>
                     </div>
-                    
                 </div>
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
+                <div class="mix cms col-xs-12 col-sm-4 col-md-4">
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                             <img src="images/port-2.png" alt="img01"/>
@@ -317,11 +184,8 @@
                             </figcaption>			
                         </figure>
                     </div>
-                    
                 </div>
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
+                <div class="mix cms col-xs-12 col-sm-4 col-md-4">
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                             <img src="images/port-3.png" alt="img01"/>
@@ -331,11 +195,8 @@
                             </figcaption>			
                         </figure>
                     </div>
-                    
                 </div>
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
+                <div class="mix cms col-xs-12 col-sm-4 col-md-4">
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                             <img src="images/port-4.png" alt="img01"/>
@@ -345,11 +206,8 @@
                             </figcaption>			
                         </figure>
                     </div>
-                    
                 </div>
-
-				<div class="col-xs-12 col-sm-4 col-md-4">
-
+				<div class="mix lp col-xs-12 col-sm-4 col-md-4">
 					<div class="grid wow zoomIn">
 						<figure class="effect-bubba">
 							<img src="images/port-5.png" alt="img01"/>
@@ -359,39 +217,8 @@
 							</figcaption>
 						</figure>
 					</div>
-
 				</div>
-
-				<div class="col-xs-12 col-sm-4 col-md-4">
-
-					<div class="grid wow zoomIn">
-						<figure class="effect-bubba">
-							<img src="images/port-6.png" alt="img01"/>
-							<figcaption>
-								<h2>Impala van lines</h2>
-								<p><a target="_blank" href="http://impalamovingcompany.com/">Link</a></p>
-							</figcaption>
-						</figure>
-					</div>
-
-				</div>
-
-				<div class="col-xs-12 col-sm-4 col-md-4">
-
-					<div class="grid wow zoomIn">
-						<figure class="effect-bubba">
-							<img src="images/port-7.png" alt="img01"/>
-							<figcaption>
-								<h2>Goldenkey</h2>
-								<p><a target="_blank" href="http://goldenkey-cleaningcompany.com/">Link</a></p>
-							</figcaption>
-						</figure>
-					</div>
-
-				</div>
-
-				<div class="col-xs-12 col-sm-4 col-md-4">
-
+				<div class="mix cms col-xs-12 col-sm-4 col-md-4">
 					<div class="grid wow zoomIn">
 						<figure class="effect-bubba">
 							<img src="images/port-8.png" alt="img01"/>
@@ -401,11 +228,8 @@
 							</figcaption>
 						</figure>
 					</div>
-
 				</div>
-
-				<div class="col-xs-12 col-sm-4 col-md-4">
-
+				<div class="mix lp col-xs-12 col-sm-4 col-md-4">
 					<div class="grid wow zoomIn">
 						<figure class="effect-bubba">
 							<img src="images/port-9.png" alt="img01"/>
@@ -415,11 +239,8 @@
 							</figcaption>
 						</figure>
 					</div>
-
 				</div>
-
-				<div class="col-xs-12 col-sm-4 col-md-4">
-
+				<div class="mix lp col-xs-12 col-sm-4 col-md-4">
 					<div class="grid wow zoomIn">
 						<figure class="effect-bubba">
 							<img src="images/port-10.png" alt="img01"/>
@@ -429,25 +250,8 @@
 							</figcaption>
 						</figure>
 					</div>
-
 				</div>
-
-				<div class="col-xs-12 col-sm-4 col-md-4">
-
-					<div class="grid wow zoomIn">
-						<figure class="effect-bubba">
-							<img src="images/port-11.png" alt="img01"/>
-							<figcaption>
-								<h2>Екатерина Кононова</h2>
-								<p><a target="_blank" href="http://maxon.hol.es/kononova/">Link</a></p>
-							</figcaption>
-						</figure>
-					</div>
-
-				</div>
-
-				<div class="col-xs-12 col-sm-4 col-md-4">
-
+				<div class="mix cms col-xs-12 col-sm-4 col-md-4">
 					<div class="grid wow zoomIn">
 						<figure class="effect-bubba">
 							<img src="images/port-12.png" alt="img01"/>
@@ -457,11 +261,8 @@
 							</figcaption>
 						</figure>
 					</div>
-
 				</div>
-
-				<div class="col-xs-12 col-sm-4 col-md-4">
-
+				<div class="mix cms col-xs-12 col-sm-4 col-md-4">
 					<div class="grid wow zoomIn">
 						<figure class="effect-bubba">
 							<img src="images/port-13.png" alt="img01"/>
@@ -471,25 +272,8 @@
 							</figcaption>
 						</figure>
 					</div>
-
 				</div>
-
-				<div class="col-xs-12 col-sm-4 col-md-4">
-
-					<div class="grid wow zoomIn">
-						<figure class="effect-bubba">
-							<img src="images/port-14.png" alt="img01"/>
-							<figcaption>
-								<h2>magniko</h2>
-								<p><a target="_blank" href="http://magniko.by/">Link</a></p>
-							</figcaption>
-						</figure>
-					</div>
-
-				</div>
-
-				<div class="col-xs-12 col-sm-4 col-md-4">
-
+				<div class="mix lp col-xs-12 col-sm-4 col-md-4">
 					<div class="grid wow zoomIn">
 						<figure class="effect-bubba">
 							<img src="images/port-15.png" alt="img01"/>
@@ -499,11 +283,8 @@
 							</figcaption>
 						</figure>
 					</div>
-
 				</div>
-
-				<div class="col-xs-12 col-sm-4 col-md-4">
-
+				<div class="mix lp col-xs-12 col-sm-4 col-md-4">
 					<div class="grid wow zoomIn">
 						<figure class="effect-bubba">
 							<img src="images/port-16.png" alt="img01"/>
@@ -513,40 +294,24 @@
 							</figcaption>
 						</figure>
 					</div>
-
 				</div>
-                
             </div>
-
-
 		</div><!-- .contaier -->
-
 	</section>
-
 	<!-- Portfolio end -->
     
     <!-- Skills start -->
-    
     <section class="pfblock pfblock-gray" id="skills">
-		
 			<div class="container">
-			
 				<div class="row skills">
-					
 					<div class="row">
-
                         <div class="col-sm-6 col-sm-offset-3">
-
                             <div class="pfblock-header wow fadeInUp">
                                 <h2 class="pfblock-title">My Skills</h2>
                                 <div class="pfblock-line"></div>
-                                <div class="pfblock-subtitle">
-
-                                </div>
+                                <div class="pfblock-subtitle"></div>
                             </div>
-
                         </div>
-
                     </div><!-- .row -->
 
 					<div class="row row-flex">
@@ -611,113 +376,25 @@
 							<img src="images/notepad.png" alt="notepad">
 						</div>
 					</div>
-					
-
 				</div><!--End row -->
-			
 			</div>
-		
     </section>
-    
     <!-- Skills end -->
 
-	<!-- CallToAction start -->
-
-	<section class="calltoaction" style="display: none;">
-		<div class="container">
-
-			<div class="row">
-
-				<div class="col-md-12 col-lg-12">
-					<h2 class="wow slideInRight" data-wow-delay=".1s">ARE YOU READY TO START?</h2>
-					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
-						I'm available for freelance projects.
-					</div>
-				</div>
-
-				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
-					<a href="#contact" class="btn btn-lg">Hire Me</a>
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
-
-	<!-- CallToAction end -->
-
-	<!-- Testimonials start -->
-
-	<section id="testimonials" class="pfblock pfblock-gray" style="display: none;">
-
-		<div class="container">
-            
-            <div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">What my clients say</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
-						</div>
-					</div>
-
-				</div>
-
-			</div><!-- .row -->
-
-            <div class="row">
-
-			<div id="cbp-qtrotator" class="cbp-qtrotator">
-                <div class="cbp-qtcontent">
-                    <img src="images/client-1.jpg" alt="client-1" />
-                    <blockquote>
-                      <p>Work with John was a pleasure. He understood exactly what I wanted and created an awesome site for my company.</p>
-                      <footer>Pino Caruso</footer>
-                    </blockquote>
-                </div>
-                <div class="cbp-qtcontent">
-                    <img src="images/client-2.jpg" alt="client-2" />
-                    <blockquote>
-                      <p>I'm really happy with the results. Get 100% satisfaction is difficult but Alex got it without problems.</p>
-                      <footer>Jane Doe</footer>
-                    </blockquote>
-                </div>
-
-            </div>		
-
-            </div><!-- .row -->
-
-					
-		</div><!-- .row -->
-	</section>
-
-	<!-- Testimonial end -->
-
-
 	<!-- Contact start -->
-
 	<section id="contact" class="pfblock" style="background-color: #ddddddf0; min-height: 86vh;">
 		<div class="container">
 			<div class="row">
-
 				<div class="col-sm-6 col-sm-offset-3">
-
 					<div class="pfblock-header">
 						<h2 class="pfblock-title">Contacts</h2>
 						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-
-						</div>
+						<div class="pfblock-subtitle"></div>
 					</div>
-
 				</div>
-
 			</div><!-- .row -->
 
 			<div class="row">
-
 				<div class="col-sm-6" style="padding-right: 25px">
 					<div class="my-photo"><img style="width: 63%; float: right;" src="images/myphoto.jpg" alt="Max Nyrkov"></div>
 				</div>
@@ -744,59 +421,31 @@
 						<p><a href="skype:maxon_by?chat">maxon_by</a></p>
 					</div>
 				</div>
-
 			</div><!-- .row -->
 		</div><!-- .container -->
 	</section>
-
 	<!-- Contact end -->
 
 	<!-- Footer start -->
-
 	<footer id="footer">
 		<div class="container">
 			<div class="row">
-
 				<div class="col-sm-12">
-
-					<!--<ul class="social-links">-->
-						<!--<li><a href="index.html#" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>-->
-						<!--<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>-->
-						<!--<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>-->
-						<!--<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a></li>-->
-						<!--<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>-->
-					<!--</ul>-->
-
-
                     <p class="copyright">
-                        © 2015 Max Nyrkov
+                        © 2015 Max Nirkov
 					</p>
-
 				</div>
-
 			</div><!-- .row -->
 		</div><!-- .container -->
 	</footer>
-
 	<!-- Footer end -->
 
-	<!-- Scroll to top -->
-
-	<div class="scroll-up">
-		<a href="#home"><i class="fa fa-angle-up"></i></a>
-	</div>
-    
-    <!-- Scroll to top end-->
-
 	<!-- Javascript files -->
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/jquery.parallax-1.1.3.js"></script>
-	<!--<script src="js/imagesloaded.pkgd.js"></script>-->
-	<!--<script src="js/jquery.sticky.js"></script>-->
+	<script src="js/mixitup.js"></script>
 	<script src="js/wow.min.js"></script>
-    <!--<script src="js/jquery.easypiechart.js"></script>-->
 	<script src="js/custom.js"></script>
 
 </body>

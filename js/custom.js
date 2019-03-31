@@ -9,6 +9,13 @@ $(document).ready(function() {
 		$('#preloader').delay(300).fadeOut('slow');
 	});
 
+	/* mixit UP */
+	$(function () {
+		/* mixit up */
+		var containerEl = document.querySelector('.portfolio');
+		var mixer = mixitup(containerEl);
+	});
+
 	$(document).ready(function() {
 
 		/* ---------------------------------------------- /*
@@ -39,23 +46,23 @@ $(document).ready(function() {
 
 	});
 
-	/* bg video */
-	$(document).ready(function() {
-		var videobackground = new $.backgroundVideo($('#home'), {
-			"align": "centerXY",
-			"width": 1280,
-			"height": 720,
-			"path": "video/",
-			"filename": "cover_1",
-			"types": ["mp4","ogg","webm"],
-			"preload": true,
-			"autoplay": true,
-			"loop": true
-		});
-
-		/* anim */
-		$('.scroll-down').delay(4000).animate({'opacity':'1'},500);
-	});
+	// /* bg video */
+	// $(document).ready(function() {
+	// 	var videobackground = new $.backgroundVideo($('#home'), {
+	// 		"align": "centerXY",
+	// 		"width": 1280,
+	// 		"height": 720,
+	// 		"path": "video/",
+	// 		"filename": "cover_1",
+	// 		"types": ["mp4","ogg","webm"],
+	// 		"preload": true,
+	// 		"autoplay": true,
+	// 		"loop": true
+	// 	});
+	//
+	// 	/* anim */
+	// 	$('.scroll-down').delay(4000).animate({'opacity':'1'},500);
+	// });
 
 
 });

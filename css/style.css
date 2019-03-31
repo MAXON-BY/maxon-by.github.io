@@ -676,6 +676,33 @@ textarea.form-control {
     text-align: center;
 }
 
+.wrap-portfolio ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+	padding: 0;
+}
+
+.wrap-portfolio ul li{
+	padding: 5px;
+}
+.wrap-portfolio ul li button{
+	color: #000000;
+	border: 1px solid #656565;
+	background: transparent;
+	padding: 2px 15px;
+	font-size: 17px;
+	outline: none;
+	transition: 0.3s;
+}
+.wrap-portfolio ul button:hover,
+.wrap-portfolio ul button.mixitup-control-active{
+	color: rgb(231, 116, 111);
+	border: 1px solid rgb(231, 116, 111);
+	transition: 0.3s;
+}
+
 .scroll-down span{
     position: relative;
     color: #fff;
