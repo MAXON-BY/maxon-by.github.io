@@ -1,0 +1,67 @@
+.bg-timer{
+    background-image: url('img/bg_timer.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.timerWrap{
+    background-color: #fff;
+    border: 1px solid #3c4854;
+    box-shadow: 0 0 25px #191919;
+    padding: 25px 30px;
+    box-sizing: border-box;
+}
+.timerName{
+    padding: 10px 0;
+}
+.timerName p{
+    color: #0099dc;
+    text-align: left;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+}
+.timerName p span{
+    color: #CC4800;
+}
+.timerConfigBtn{
+    text-align: left;
+}
+.timerConfig button{
+    background-color: #0099dc;
+    border:none;
+    font-size: 14px;
+    padding: 8px;
+    margin: 4px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.timerConfig button:hover{
+    background-color: #007cbb;
+    border-radius: 5px 0 0 0;
+    transition: 0.3s;
+}
+.timerConfig button.greenBtn{
+    background-color: #62c462
+}
+.timerConfig button.greenBtn:hover{
+    background-color: #5ab35a
+}
+.timerConfig button.orangeBtn{
+    background-color: orange;
+}
+.timerConfig button.orangeBtn:hover{
+    background-color: #f59f00;
+}
+.timerWindow p{
+    font-size: 130px;
+    color: #007cbb;
+    text-align: center;
+    line-height: 1;
+    margin: 15px 0;
+    text-shadow: #999 1px 1px 5px;
+    font-family: 'Share Tech Mono', sans-serif;
+}
