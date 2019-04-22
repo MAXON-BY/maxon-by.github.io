@@ -1,0 +1,114 @@
+[
+  {
+    "id" : 1,
+    "img" : "images/port-1.png",
+    "alt" : "Calstate",
+    "name": "Calstate",
+    "link": "http://calstatemoving.com/"
+  },
+  {
+    "id" : 2,
+    "img" : "images/port-2.png",
+    "alt" : "IMPA",
+    "name": "IMPA",
+    "link": "http://impalab.com/"
+  },
+  {
+    "id" : 3,
+    "img" : "images/port-3.png",
+    "alt" : "Кони-Пони",
+    "name": "Кони-Пони",
+    "link": "http://koniponitur.by/"
+  },
+  {
+    "id" : 4,
+    "img" : "images/port-4.png",
+    "alt" : "Dmitry Shumanev",
+    "name": "Dmitry Shumanev",
+    "link": "http://shumanev.com/"
+  },
+  {
+    "id" : 5,
+    "img" : "images/port-5.png",
+    "alt" : "LA MOVING CENTRE",
+    "name": "LA MOVING CENTRE",
+    "link": "http://www.lamovingcentre.com/"
+  },
+  {
+    "id" : 6,
+    "img" : "images/port-6.png",
+    "alt" : "Impala van lines",
+    "name": "Impala van lines",
+    "link": "http://impalamovingcompany.com/"
+  },
+  {
+    "id" : 7,
+    "img" : "images/port-7.png",
+    "alt" : "Goldenkey",
+    "name": "Goldenkey",
+    "link": "http://goldenkey-cleaningcompany.com/"
+  },
+  {
+    "id" : 8,
+    "img" : "images/port-8.png",
+    "alt" : "Apex",
+    "name": "Apex",
+    "link": "http://apexsigncompany.com/"
+  },
+  {
+    "id" : 9,
+    "img" : "images/port-9.png",
+    "alt" : "EuroStyle",
+    "name": "EuroStyle",
+    "link": "http://microneedlingwinterpark.com/"
+  },
+  {
+    "id" : 10,
+    "img" : "images/port-10.png",
+    "alt" : "Gifter",
+    "name": "Gifter",
+    "link": "http://giftermsq.com/"
+  },
+  {
+    "id" : 11,
+    "img" : "images/port-11.png",
+    "alt" : "Екатерина Кононова",
+    "name": "Екатерина Кононова",
+    "link": "http://maxon.hol.es/kononova/"
+  },
+  {
+    "id" : 12,
+    "img" : "images/port-12.png",
+    "alt" : "NSVnail",
+    "name": "NSVnail",
+    "link": "http://nsvnail.by/"
+  },
+  {
+    "id" : 13,
+    "img" : "images/port-13.png",
+    "alt" : "iloveugly",
+    "name": "iloveugly",
+    "link": "https://www.iloveugly.com/"
+  },
+  {
+    "id" : 14,
+    "img" : "images/port-14.png",
+    "alt" : "magniko",
+    "name": "magniko",
+    "link": "http://magniko.by/"
+  },
+  {
+    "id" : 15,
+    "img" : "images/port-15.png",
+    "alt" : "borovaya",
+    "name": "borovaya",
+    "link": "http://parts.borovaya.by/"
+  },
+  {
+    "id" : 16,
+    "img" : "images/port-16.png",
+    "alt" : "Canon",
+    "name": "Canon",
+    "link": "http://service.k-mash.by/"
+  }
+]
