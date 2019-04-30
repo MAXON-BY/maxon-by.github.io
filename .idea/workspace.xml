@@ -2,47 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="128c1746-71ec-4247-afdc-3ec8bb04b2ca" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/works/SPA/Git/GitUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Git/GitUserForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Git/GitUserForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Git/img/bg-git.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Git/img/email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Git/img/git.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Git/img/link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Git/img/map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Git/img/people.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Timer/btn-timer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Timer/display-timer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Timer/img/bg-timer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Timer/img/bg_timer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Timer/media/BonJovi.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Timer/timer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Timer/timer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/ToDo/ToDo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/ToDo/ToDoInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/ToDo/ToDoItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/ToDo/css/ToDo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/ToDo/img/ToDO-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Weather/Cities.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Weather/Form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Weather/Info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Weather/Titles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Weather/Weather.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Weather/Weather.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Weather/img/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/works/SPA/Weather/img/weather.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/flappy/img/flappy_bird_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/works/games/flappy/img/flappy_bird_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/flappy/img/flappy_bird_bird.png" beforeDir="false" afterPath="$PROJECT_DIR$/works/games/flappy/img/flappy_bird_bird.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/flappy/img/flappy_bird_fg.png" beforeDir="false" afterPath="$PROJECT_DIR$/works/games/flappy/img/flappy_bird_fg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/flappy/img/flappy_bird_pipeBottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/works/games/flappy/img/flappy_bird_pipeBottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/flappy/img/flappy_bird_pipeUp.png" beforeDir="false" afterPath="$PROJECT_DIR$/works/games/flappy/img/flappy_bird_pipeUp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/flappy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/works/games/flappy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/flappy/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/works/games/flappy/js/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/cover.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/cover_1.mp4" beforeDir="false" />
     </list>
     <ignored path="maxon.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,19 +24,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-378">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            <state relative-caret-position="344">
+              <caret line="173" column="47" selection-start-line="173" selection-start-column="47" selection-end-line="173" selection-end-column="47" />
               <folding>
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#svg#0;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#6;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#7;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#8;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#9;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#10;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#11;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#12;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#13;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#14;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#15;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#16;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#17;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#18;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#script#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="1090" column="1" selection-start-line="1090" selection-start-column="1" selection-end-line="1090" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -119,13 +108,13 @@
         <option value="$PROJECT_DIR$/freedom/js/common-6.js" />
         <option value="$PROJECT_DIR$/freedom/js/common-7.js" />
         <option value="E:/KrotovStudio/BiloniaCafe/pickadate/tests/dev/time.htm" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/freedom-react/src/list.js" />
         <option value="$PROJECT_DIR$/freedom-react/webpack.config.js" />
         <option value="$PROJECT_DIR$/freedom-react/src/app.js" />
         <option value="$PROJECT_DIR$/freedom-react/src/item.js" />
         <option value="$PROJECT_DIR$/freedom-react/output/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -134,10 +123,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
+    <option name="x" value="541" />
     <option name="y" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1038" />
+    <option name="width" value="1066" />
+    <option name="height" value="858" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -155,13 +144,17 @@
             <path>
               <item name="maxon.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio-ReactDev" type="462c0819:PsiDirectoryNode" />
-              <item name="works" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maxon.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio-ReactDev" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maxon.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio-ReactDev" type="462c0819:PsiDirectoryNode" />
               <item name="works" type="462c0819:PsiDirectoryNode" />
-              <item name="SPA" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -171,26 +164,26 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/freedom-react" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="FullScreen" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
     <property name="JavaScriptLanguageLevel" value="JSX" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-hotel" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Projects\Portfolio-ReactDev\works" />
-      <recent name="C:\Users\user_PC\Desktop\Portfolio\maxon.github.io\javascript\flappy" />
-      <recent name="C:\Users\user_PC\Desktop\Portfolio\maxon.github.io\freedom\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user_PC\Desktop\Portfolio\maxon.github.io\freedom\css" />
       <recent name="C:\Users\user_PC\Desktop\Portfolio\maxon.github.io\freedom\js" />
       <recent name="C:\Users\user_PC\Desktop\Portfolio\maxon.github.io\freedom" />
       <recent name="C:\Users\user_PC\Desktop\Portfolio\maxon.github.io\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\Portfolio-ReactDev\works" />
+      <recent name="C:\Users\user_PC\Desktop\Portfolio\maxon.github.io\javascript\flappy" />
+      <recent name="C:\Users\user_PC\Desktop\Portfolio\maxon.github.io\freedom\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,7 +237,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521750599266</updated>
-      <workItem from="1555938263927" duration="1989000" />
+      <workItem from="1555938263927" duration="6439000" />
+      <workItem from="1555977075369" duration="640000" />
+      <workItem from="1556196616281" duration="6902000" />
+      <workItem from="1556630253393" duration="1493000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1521754497369</created>
@@ -386,11 +382,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528463216869</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="first works commit">
+      <created>1555940523179</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1555940523179</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update cms and lp works">
+      <created>1556203823779</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1556203823779</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1989000" />
+    <option name="totallyTimeSpent" value="15474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,10 +414,9 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12539582" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14756174" />
       <window_info id="Structure" order="1" weight="0.24970692" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -416,10 +425,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32831326" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.14075068" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22788204" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.20107238" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3298193" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -455,7 +465,9 @@
     <MESSAGE value="https домашка №6 подправлкен текст в форме фильтра" />
     <MESSAGE value="изменил бэк на главной и убрал прелоадер" />
     <MESSAGE value="оптимизировал картинки и бэк" />
-    <option name="LAST_COMMIT_MESSAGE" value="оптимизировал картинки и бэк" />
+    <MESSAGE value="first works commit" />
+    <MESSAGE value="update cms and lp works" />
+    <option name="LAST_COMMIT_MESSAGE" value="update cms and lp works" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -596,14 +608,6 @@
     <entry file="file://$PROJECT_DIR$/images/stol-obstanovka-mesto.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="399" column="15" selection-start-line="399" selection-start-column="15" selection-end-line="399" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/freedom-react/src/list.js" />
     <entry file="file://$PROJECT_DIR$/freedom-react/src/!Simple Back/func.js" />
     <entry file="file://$PROJECT_DIR$/freedom-react/src/!Simple Back/app.js" />
@@ -613,18 +617,71 @@
     <entry file="file://$PROJECT_DIR$/freedom-react/output/bundle.js" />
     <entry file="file://$PROJECT_DIR$/freedom-react/output/index.html" />
     <entry file="file://$PROJECT_DIR$/freedom-react/func.js" />
+    <entry file="file://$PROJECT_DIR$/works/flappy/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1084" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/flappy/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/port-9.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/port-10.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        <state relative-caret-position="344">
+          <caret line="173" column="47" selection-start-line="173" selection-start-column="47" selection-end-line="173" selection-end-column="47" />
           <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#9;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#10;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#11;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#12;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#13;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#14;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#15;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#16;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#17;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#18;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="1090" column="1" selection-start-line="1090" selection-start-column="1" selection-end-line="1090" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -1086,3 +1086,6 @@ section{
 
 }
 
+.grid figure figcaption{
+	cursor: pointer;
+}
